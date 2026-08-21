@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wie viel Arktis kostet Ihre Website?</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=IBM+Plex+Mono:wght@200&family=Cormorant:ital@1&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="iceberg-col">
+      <img src="iceberg.png" alt="Eisberg">
+    </div>
+    <div class="content-col">
+      <h1>Wie viel Arktis<br>kostet Ihre Website?</h1>
+      <hr class="divider">
+
+      <div class="input-row" id="input-row">
+        <input id="domainInput" type="text" placeholder="DOMAIN EINGEBEN">
+        <button id="calculateBtn">CO₂ Berechnen →</button>
+      </div>
+
+      <div id="loading" class="loading-text" style="display:none;">
+        IHR BERICHT WIRD ZUSAMMENGESTELLT … EINEN KLEINEN MOMENT.
+      </div>
+
+      <div class="intro-text">
+        <p>Millionen Webseitenaufrufe erzeugen jedes Jahr erhebliche CO₂-Emissionen.</p>
+        <p>Die Folgen reichen bis in die Arktis:<br>1 Tonne CO₂ = 3 m² verlorenes Meereis.</p>
+      </div>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
